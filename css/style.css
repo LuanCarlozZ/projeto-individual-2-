@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(/img/gifcerto.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Baloo Bhaijaan 2", cursive, Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+
+.corpo-bg {
+  max-width: 950px;
+  margin: 40px;
+  padding: 30px;
+}
+
+form label {
+  display: block;
+  padding-bottom: 5px;
+  font-size: 18px;
+}
+.input-padrao {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: rgba(46, 45, 54, 0.8);
+  border: 1px solid rgb(237, 224, 224);
+  color: white;
+  border-radius: 10px;
+  font-family: "Baloo Bhaijaan 2", cursive, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+fieldset {
+  border: none;
+  font-size: 18px;
+}
+
+fieldset select {
+  width: 150px;
+  background: rgba(47, 46, 56, 0.7);
+  color: white;
+  font-family: "Baloo Bhaijaan 2", cursive, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 5px 0 20px;
+  padding: 10px 20px 10px 2px;
+}
+
+.passo {
+  display: none;
+}
+.passo input {
+  width: 150px;
+  background: rgba(47, 46, 56, 0.7);
+  color: white;
+  font-family: "Baloo Bhaijaan 2", cursive, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 5px 0 20px;
+  padding: 10px 0px 10px 20px;
+}
+.but {
+  display: block;
+  margin: 3% 0;
+  padding: 20px;
+  border: none;
+  background: #000000d7;
+  color: white;
+  font-family: "Baloo Bhaijaan 2", cursive, Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 10px;
+  transition: 1s all;
+  cursor: pointer;
+}

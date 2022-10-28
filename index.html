@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Codificador</title>
+</head>
+
+<body>
+    <main>
+        <form>
+            <label for="mensagem">Digite sua mensagem aqui </label>
+            <textarea id="mensagem" class="input-padrao" required cols="70" rows="7"></textarea>
+
+            <fieldset>
+                <legend> Cifra ou Base64</legend>
+                <select id="opcao">
+                    <option value="selecione">Selecione</option>
+                    <option value="cesar">Cifra de César</option>
+                    <option value="base64">Base64</option>
+                </select>
+
+                <div class="passo">
+                    <label for="passo">Escolha o incremento</label>
+                    <input type="number" name="passo" min="1" max="25" id="escolha-passo" checked>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <label for="radio-codificar"> <input type="radio" value="codificar" name="code" id="radio-codificar"
+                        checked>Codificar</label>
+
+                        <label for="radio-decodificar"
+                        ><input
+                          type="radio"
+                          value="decodificar"
+                          name="code"
+                          id="radio-decodificar"
+                        />Decodificar</label
+                      >
+            </fieldset>
+
+            <button class="but">Codificar mensagem</button>
+
+            <label for="mensagem">Resultado</label>
+            <textarea id="mensagemFinal" class="input-padrao" cols="70" rows="7"></textarea>
+        </form>
+
+
+
+
+    </main>
+
+    <script src="/java.js"></script>
+
+</body>
+
+</html>
